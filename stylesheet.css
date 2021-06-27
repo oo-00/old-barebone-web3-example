@@ -1,0 +1,54 @@
+
+body {
+	font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+}
+
+.mainhead {
+	position: absolute;
+	font-weight: bold;
+	font-size: 32pt;
+	top: 20px;
+	left: 100px;
+}
+
+.container {
+	padding: 26px;
+	position: absolute;
+	left: 10%;
+	top: 100px;
+	border: 2px solid #005088;
+	border-radius: 20px;
+	width: 40%;
+	height: 580px;
+	color: #005090;
+}
+
+
+a {
+	color: #005090;
+}
+
+input[type='text'] {
+	width: 80%;
+	max-width: 400px;
+	font-size: 12pt;
+	padding: 4px;
+	border-radius: 4px;
+	box-shadow: 0px;
+	border: 1px solid #000000;
+}
+
+.ldbt {
+	font-size: 12pt;
+	background-color: #ffffff;
+	cursor: pointer;
+	padding: 4px;
+	border-radius: 4px;
+	box-shadow: 0px;
+	border: 1px solid #000000;
+}
+
+
+[onclick]:hover {
+	cursor: pointer;
+}
